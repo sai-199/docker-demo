@@ -207,25 +207,22 @@
         <artifactId>mockito-core</artifactId>
         <version>1.8.5</version>
         <scope>test</scope>
-      </dependency>
-             
-             
-             <distributionManagement>
+      </dependency>       
+     <distributionManagement>
 	
-	    <repository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Relese Repository</name>
-	      <url>http://18.207.144.109:8081/repository/wallmart-dev/</url>
-	    </repository>
-	    
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://18.207.144.109:8081/repository/wallmart/</url>
-	    </snapshotRepository>
+	<repository>
+	<id>nexus</id>
+	<name>flipcart-relese-dev</name>
+	<url>http://18.207.144.109:8081/repository/flipcart-relese-dev/</url>
+	</repository>
+	     
+	<repository>
+	<id>nexus</id>
+	<name>flipcart-snapshotp-dev</name>
+	<url>http://18.207.144.109:8081/repository/flipcart-snapshotp-dev/</url>
+	</repository>     
 	    
 	</distributionManagement>
-    </dependencies>
            
   </dependencyManagement>
 
