@@ -208,7 +208,25 @@
         <version>1.8.5</version>
         <scope>test</scope>
       </dependency>
+             
+             
+             <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Relese Repository</name>
+	      <url>http://18.207.144.109:8081/repository/wallmart-dev/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://18.207.144.109:8081/repository/wallmart/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
     </dependencies>
+           
   </dependencyManagement>
 
   <scm>
